@@ -1,6 +1,6 @@
 ARG NODE_VER
 FROM node:${NODE_VER}
 
-USER node 
+USER node
 
 WORKDIR /home/node/app

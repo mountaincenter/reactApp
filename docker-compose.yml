@@ -3,9 +3,9 @@ services:
   react:
     build:
       args:
-        - NODE_VER:20.11.0
+        - NODE_VER=20.11.0
       context: .
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
     tty: true
     volumes:
       - .:/home/node/app
